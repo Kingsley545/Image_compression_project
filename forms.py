@@ -1,7 +1,7 @@
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileAllowed
-from wtforms import SubmitField,IntegerField
-from wtforms.validators import NumberRange,InputRequired
+from wtforms import SubmitField
+from wtforms.validators import InputRequired
 
 
 
