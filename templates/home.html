@@ -5,7 +5,7 @@
     <p>Please upload an image file to be compressed.</p>
 
     <div class="form">
-        <form method="POST" action="{{ url_for('upload')}}" method="POST" enctype="multipart/form-data">
+        <form method="POST" action="{{ url_for('upload')}}" enctype="multipart/form-data">
           {{ form.hidden_tag()}}
 
            <div class="form-group">
